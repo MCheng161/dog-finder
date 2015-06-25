@@ -1,4 +1,3 @@
-
 def get_results(params)
   array = params.values
   small = 0

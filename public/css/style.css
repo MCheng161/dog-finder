@@ -11,13 +11,14 @@ h1 {
 }
 
 body {
-  background-image: url("http://www.publicdomainpictures.net/pictures/90000/nahled/dog-background-wallpaper-design.jpg")
+  background-image: url("http://www.publicdomainpictures.net/pictures/90000/nahled/dog-background-wallpaper-design.jpg");
+  text-align: center;
 }
 
 a {
   font-size: 50px;
-  background-color: #649;
-  color: black;
+  background-color: blue;
+  color: white;
   border-style: inset;
   border-color: purple;
   border-width: 5px;

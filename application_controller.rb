@@ -1,5 +1,6 @@
 require 'bundler'
 Bundler.require
+require_relative 'models/dogs.rb'
 
 class ApplicationController < Sinatra::Base
 
@@ -12,6 +13,6 @@ class ApplicationController < Sinatra::Base
 post '/results' do 
   @dog = get_results(params)
   
-   # erb :results
+  erb :results
 end
 end
