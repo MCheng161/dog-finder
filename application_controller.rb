@@ -10,7 +10,8 @@ class ApplicationController < Sinatra::Base
     erb :questions
   end
 post '/results' do 
-  params.inspect
+  @dog = get_results(params)
+  
    # erb :results
 end
 end
