@@ -6,7 +6,7 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
-  get '/question' do
+  get '/questionYO' do
     erb :questions
   end
 post '/results' do 

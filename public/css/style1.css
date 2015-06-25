@@ -10,7 +10,6 @@ h1 {
   background-color: white;
   }
 
-<img src="https://mail.google.com/mail/?ui=2&ik=f292519f3e&view=fimg&th=14e277480ad97ffa&attid=0.1&disp=inline&safe=1&attbid=ANGjdJ8bXX-QaG-9CaHoWXsy-_gjr2CgX2cUmqCA7LLxEWjva-dghT9fzHpWm6jwMD3A6yOsltXNT7M405fjkioCXALluvyTN2bHiwkCmlxlmv4otpypqcL8HKLJPr4&ats=1435181116571&rm=14e277480ad97ffa&zw&sz=w1342-h547">
-<img src="http://blog.preservationnation.org/wp-content/uploads/2012/07/bardstown-kentucky.jpg">
-<img src="http://news.psu.edu/sites/default/files/styles/threshold-992/public/owner-occupied%20iStock%20floridastock.jpg">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzXeK3q75NqtXm3JgD2LmWxssFfBXQkND4TS1k5LmaOMgndjGXwA">
+body {
+  background-image: dog_background.gif
+}
