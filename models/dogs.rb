@@ -6,5 +6,12 @@ class Dogs
   def name
     @name
   end 
+  params={"place" => "small", "home" => "small", "size" => "small", "personality" => "small", "activity" => "small"}
+params.values
+  
+ 
 end
-prams={"place" => "small", "home" => "small", "size" => "small", "personality" => "small", "activity" => "small"
+
+  
+  
+  
