@@ -5,6 +5,7 @@ class Dogs
   end
   def name
     @name
-  end
-  if 
+  end 
 end
+
+prams
