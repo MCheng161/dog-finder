@@ -6,4 +6,5 @@ class Dogs
   def name
     @name
   end
+  if 
 end
