@@ -1,0 +1,25 @@
+h1 {
+  color: #234;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Abril Fatface";
+  text-decoration: underline;
+  border-style: outset;
+  border-width: 20px;
+  border-color: red;
+  background-color: white;
+}
+
+body {
+  background-image: url("http://www.publicdomainpictures.net/pictures/90000/nahled/dog-background-wallpaper-design.jpg")
+}
+
+a {
+  font-size: 50px;
+  background-color: #649;
+  color: black;
+  border-style: inset;
+  border-color: purple;
+  border-width: 5px;
+ text-indent: 100em;
+}
