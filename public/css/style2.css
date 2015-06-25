@@ -2,4 +2,14 @@ h1 {
   text-align: center;
   font-size: 100px;
   color: red;
+  background-color: white;
+  border-style: groove;
+  border-color: #275;
+  border-width: 20px;
+}
+
+body {
+  font-size: 20px;
+  color: blue;
+  background-image: url("http://i109.photobucket.com/albums/n59/BranBran13/backgrounds/dog.png")
 }
