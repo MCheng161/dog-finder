@@ -7,5 +7,4 @@ class Dogs
     @name
   end 
 end
-
-prams
+prams={"place" => "small", "home" => "small", "size" => "small", "personality" => "small", "activity" => "small"
