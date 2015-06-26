@@ -49,19 +49,27 @@ def get_results(params)
       medium += 1
     end
   end
+  array.each do |use|
+    if use == "Small, Medium"
+      small += 1
+      medium += 1
+    else
+      large += 1
+      medium += 1
+    end
+  end
     if small > medium && small > large 
       return "small"
       elsif medium > small && medium > large
       return "medium"
-    elsif medium = small && medium > large
+    elsif medium = small 
       return "small"
-    elsif medium = large && medium > small
+    elsif medium = large
       return "large"
-    elsif small = large && small > medium
+    elsif small = large
       return "medium"
     else
       return "large"
-        
   end
 end
 
