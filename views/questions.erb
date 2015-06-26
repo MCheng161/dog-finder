@@ -2,66 +2,104 @@
 <html>
   <head>
     <title>Questions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/style1.css">
   </head>
   
   <body>
+    <div class="container">   
     <h1> What Dog Is Best For You?</h1>
-    <p> Where do you live? <p>
     <form action="/results" method="post">
-  <img src="http://www.telegraph.co.uk/travel/destination/article125984.ece/ALTERNATES/w620/bostonwaterfront.jpg" width="456" height="234"><br>
-<input type="radio" name="place" value="Small">City<br>
-  <img src="http://news.psu.edu/sites/default/files/styles/threshold-992/public/owner-occupied%20iStock%20floridastock.jpg" width="356" height="236"><br>
-<input type="radio" name="place" value="Medium">Suburban<br>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzXeK3q75NqtXm3JgD2LmWxssFfBXQkND4TS1k5LmaOMgndjGXwA" width="356" height="236"><br>  
-<input type="radio" name="place" value="Large">Isolated<br>
-
+      <div class="row">
+        <p> Where do you live? </p>
+        <div class="col-md-4">
+          <img src="http://www.telegraph.co.uk/travel/destination/article125984.ece/ALTERNATES/w620/bostonwaterfront.jpg" width="350" height="234"><br>
+          <input type="radio" name="place" value="Small">City<br>
+        </div>
+        <div class="col-md-4">
+          <img src="http://news.psu.edu/sites/default/files/styles/threshold-992/public/owner-occupied%20iStock%20floridastock.jpg" width="356" height="236"><br>
+          <input type="radio" name="place" value="Medium">Suburban<br>
+        </div>
+        <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzXeK3q75NqtXm3JgD2LmWxssFfBXQkND4TS1k5LmaOMgndjGXwA" width="356" height="236"><br>  
+          <input type="radio" name="place" value="Large">Isolated<br>
+        </div>
+      </div>
 
   
-   
+<div class="row">  
 <p> How big is your home? <p>
+  <div class="col-md-4">
   <img src="http://cache-blog.credit.com/wp-content/uploads/2014/09/credit-score-mortgage-680x430.jpg" width="356" height="236"><br>
 <input type="radio" name="home" value="Large, Medium, Small">Large<br>
+  </div>
+  <div class="col-md-4">
   <img src="http://www.seechicagorealestate.com/images/buena_park_vintage_640.jpg" width="356" height="236"><br>
 <input type="radio" name="home" value="Medium">Medium<br>
+  </div>
+  <div class="col-md-4">
   <img src="http://www.stylemotivation.com/wp-content/uploads/2013/10/18-Small-Studio-Apartment-Design-Ideas-11-620x412.jpg" width="356" height="236"><br>
 <input type="radio" name="home" value="Small">Small<br>
-
+  </div>
+      </div>
     
+ <div class="row">     
      <p> What dog size do you like? <p>
+   <div class="col-md-4">
   <img src="http://allwallpapersnew.com/wp-content/gallery/small-dog-breeds-and-pictures/maltese.jpg" width="356" height="236"><br>
 <input type="radio" name="size" value="Small">Small<br>
+   </div>
+     <div class="col-md-4">
   <img src="http://www.bowwowmeowcafe.com/medium%20dog.jpg" width="356" height="236"><br>
 <input type="radio" name="size" value="Medium">Medium<br>
+     </div>
+       <div class="col-md-4">
   <img src="http://d21vu35cjx7sd4.cloudfront.net/dims3/MMAH/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=http%3A%2F%2Fs3.amazonaws.com%2Fassets.prod.vetstreet.com%2Fd5%2F10e8609e8c11e0a2380050568d634f%2Ffile%2FBernese-Mtn-2-645mk062111.jpg" width="356" height="236"><br>
 <input type="radio" name="size" value="Large">Large<br>
- 
-
-    
+       </div>
+   </div>
+   
+ <div class="row"> 
     <p> What personality best suits you? <p>
+    <div class="col-md-6">
   <img src="http://www.drawingnow.com/file/videos/image/how-to-draw-a-running-person-1.jpg" width="356" height="236"><br>
 <input type="radio" name="personality" value="Large, Medium">Energenic<br>
+   </div>
+       <div class="col-md-6">
   <img src="https://bamboofunny.files.wordpress.com/2013/07/being-lazy.png" width="356" height="236"><br>
 <input type="radio" name="personality" value="Small">Lazy<br>
-  
-
-      
+   </div>
+      </div>
+     
+  <div class="row">    
     <p> What do you do in your free time? <p>
+     <div class="col-md-6">
   <img src="http://www.toonsup.com/users/m/mark/stay_inside_080908_2114.png" width="236" height="236"><br>
 <input type="radio" name="activity" value="Small, Medium">Stay Inside<br>
+    </div>
+      <div class="col-md-6">
   <img src="http://www.mmgazette.com/wp-content/uploads/2014/01/kids.jpg" width="356" height="236"><br>
 <input type="radio" name="activity" value="Large, Medium">Go outside<br>
+    </div>
+      </div>
 
+ <div class="row">    
    <p> How are you going to rely on your dog? <p>
+    <div class="col-md-6">
   <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQqViDg6cRWAIVvaE0WqFwRsjx0s764GzXs5i_-T53FbgXRkbhypA" width="236" height="236"><br>
 <input type="radio" name="use" value="Large, Medium">Protector/Hunting<br>
+   </div>
+       <div class="col-md-6">
   <img src="http://www.sunriseseniorliving.com/~/media/Images/Body%20Images/Ones-2-Use/companion-living.jpg" width="356" height="236"><br>
 <input type="radio" name="use" value="Small, Medium">Friend/Companion<br>
+   </div>
+      </div>
     
-    
+     <div class="centered">
       <input type="submit">
+      </div>
     </form>
-    
+    </div>
   </body>
   
 </html>

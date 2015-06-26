@@ -8,68 +8,32 @@ def get_results(params)
       small += 1 
     elsif place == "Medium"
       medium += 1
-    else
-      large += 1
-    end
-  end
-   array.each do |home|
-    if home == "Small"
-      small += 1 
-    elsif home == "Medium"
-      medium += 1
-    else
-      large += 1
-      small += 1 
-      medium += 1
-    end
-  end
-  array.each do |size|
-    if size == "Small"
-      small += 1 
-    elsif size == "Medium"
-      medium += 1
-    else
-      large += 1
-    end
-  end
-  array.each do |personality|
-    if personality == "Small"
-      small += 1 
-    else
-      large += 1
-      medium += 1
-    end
-  end
-  array.each do |activity|
-    if activity == "Small, Medium"
+    elsif place == "Small, Medium"
       small += 1
       medium += 1
-    else
+    elsif place == "Large, Medium"
       large += 1
       medium += 1
-    end
-  end
-  array.each do |use|
-    if use == "Small, Medium"
+    elsif place == "Large, Medium, Small"
       small += 1
       medium += 1
+      large += 1
     else
       large += 1
-      medium += 1
     end
   end
-    if small > medium && small > large 
-      return "small"
-      elsif medium > small && medium > large
-      return "medium"
-    elsif medium = small 
-      return "small"
-    elsif medium = large
-      return "large"
-    elsif small = large
-      return "medium"
-    else
-      return "large"
+  if small > medium && small > large 
+    return "small"
+  elsif medium > small && medium > large
+    return "medium"
+  elsif medium == small && medium > large && small > large
+    return "small"
+  elsif medium == large && medium > small
+    return "large"
+  elsif small == large && small > medium
+    return "medium"
+  else
+    return "large"
   end
 end
 

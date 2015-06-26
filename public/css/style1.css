@@ -20,5 +20,8 @@ body {
 p {
   font-family: "Montserrat";
 }
+.centered {
+  text-align: center;
+}
 
 
