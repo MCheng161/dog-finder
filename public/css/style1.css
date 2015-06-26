@@ -11,5 +11,14 @@ h1 {
   }
 
 body {
-  background-image: url("http://searchpartygraphics.com/downloads/dogs/P/pawprints/pawtracksimages/doggrey290opwater.png")
+  background-image: url("http://searchpartygraphics.com/downloads/dogs/P/pawprints/pawtracksimages/doggrey290opwater.png");
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
 }
+
+p {
+  font-family: "Montserrat";
+}
+
+

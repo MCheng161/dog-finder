@@ -11,5 +11,10 @@ h1 {
 body {
   font-size: 20px;
   color: blue;
-  background-image: url("http://i109.photobucket.com/albums/n59/BranBran13/backgrounds/dog.png")
+  background-image: url("http://i109.photobucket.com/albums/n59/BranBran13/backgrounds/dog.png");
+  cursor: url(../../zcXoLqLdi.jpg);
+  text-align: center
+}
+p {
+  background-color: gold;
 }
