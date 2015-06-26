@@ -53,6 +53,12 @@ def get_results(params)
       return "small"
       elsif medium > small && medium > large
       return "medium"
+    elsif medium = small && medium > large
+      return "small"
+    elsif medium = large && medium > small
+      return "large"
+    elsif small = large && small > medium
+      return "medium"
     else
       return "large"
         
