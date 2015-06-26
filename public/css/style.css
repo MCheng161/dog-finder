@@ -2,7 +2,7 @@ h1 {
   color: #234;
   font-size: 100px;
   text-align: center;
-  font-family: "Abril Fatface";
+  font-family: 'Merriweather', serif;
   text-decoration: underline;
   border-style: outset;
   border-width: 20px;
@@ -13,10 +13,12 @@ h1 {
 body {
   background-image: url("http://www.publicdomainpictures.net/pictures/90000/nahled/dog-background-wallpaper-design.jpg");
   text-align: center;
+  font-family: 'Playfair Display SC', serif;
 }
 
 a {
   font-size: 40px;
+  font-family: 'Playfair Display SC', serif;
   color: white;
   border-radius: 25px;
     background: blue;
